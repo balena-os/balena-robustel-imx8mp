@@ -22,3 +22,7 @@
 	path = layers/meta-freescale
 	url = https://github.com/Freescale/meta-freescale.git
 	branch = kirkstone
+[submodule "layers/meta-balena-robustel-imx8mp"]
+	path = layers/meta-balena-robustel-imx8mp
+	url = https://github.com/mgkiller7/meta-balena-robustel-imx8mp.git
+	branch = master
