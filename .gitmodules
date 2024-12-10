@@ -10,3 +10,15 @@
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
 	branch = master
+[submodule "layers/poky"]
+	path = layers/poky
+	url = https://github.com/balena-os/poky
+	branch = kirkstone
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded
+	branch = kirkstone
+[submodule "layers/meta-freescale"]
+	path = layers/meta-freescale
+	url = https://github.com/Freescale/meta-freescale.git
+	branch = kirkstone
