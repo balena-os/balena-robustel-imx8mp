@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-os/github-workflows to v0.0.28
+      hash: da4a76af20d8cdcea9433aa2d408fb17ce1ce002
+      body: Update balena-os/github-workflows
+      footer:
+        Changelog-entry: Update balena-os/github-workflows to v0.0.28
+        changelog-entry: Update balena-os/github-workflows to v0.0.28
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.33+rev4
+  title: ""
+  date: 2024-12-12T11:11:16.252Z
+- commits:
     - subject: Update layers/meta-openembedded to
         7b3fdcdfaab2fc964bbf9eec2cce4e03001fa8cf
       hash: ac58a8c3194eae6506284c405a1b68ee75f7971f
