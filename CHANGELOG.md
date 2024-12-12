@@ -1,6 +1,501 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.25
+## (2024-12-12)
+
+
+<details>
+<summary> Update layers/meta-balena to ee7ac3e7582a4fcc7e40d459e212c7462c1d8728 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.1.25
+> ### (2024-12-11)
+> 
+> * github/workflows: Add yocto label to runs_on [Alexandru Costache]
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 3a37005 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.69
+>> #### (2024-12-10)
+>> 
+>> * os/balenaos: Update Xavier and Xavier NX boot partitions for JP5 [Alexandru]
+>> 
+>> ### leviathan-2.31.68
+>> #### (2024-12-07)
+>> 
+>> * Update balena-io/balena-cli to v20.0.9 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.67
+>> #### (2024-12-06)
+>> 
+>> * Make leviathan worker ref configurable via env var [Ryan Cooke]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.1.24
+> ### (2024-12-11)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.10.1 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-16.10.1
+>> #### (2024-12-11)
+>> 
+>> * Specify `/tmp/balena|resin` directories as necessary [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-16.10.0
+>> #### (2024-12-10)
+>> 
+>> * Add PowerFanConfig config backend [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.1.23
+> ### (2024-12-06)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.9.0 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-16.9.0
+>> #### (2024-12-06)
+>> 
+>> * Add ability to stream logs from host services to cloud [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-16.8.0
+>> #### (2024-12-05)
+>> 
+>> * Take update locks for host-config changes [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.7.8
+>> #### (2024-11-28)
+>> 
+>> * Clean up remaining locks on state settle [Felipe Lalanne]
+>> * Refactor update-locks implementation [Felipe Lalanne]
+>> * Refactor lockfile module [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.1.22
+> ### (2024-12-05)
+> 
+> * os-helpers-fs: add function to erase disks [Alex Gonzalez]
+> 
+> ## meta-balena-6.1.21
+> ### (2024-12-04)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 90d1685 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.66
+>> #### (2024-12-04)
+>> 
+>> * Update core/contracts digest to 474ab2d [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.1.20
+> ### (2024-12-04)
+> 
+> * kernel-module-build: update to 3.0.1 [Alex Gonzalez]
+> * tests: secureboot: fix passing of kernel headers version [Alex Gonzalez]
+> * tests: secureboot: add dm devices support in FDE test [Alex Gonzalez]
+> * tests: secureboot: add imx specialization [Alex Gonzalez]
+> 
+> ## meta-balena-6.1.19
+> ### (2024-12-03)
+> 
+> * balena-image-initramfs: add zram module [Alex Gonzalez]
+> * initrdscripts: add zram module [Alex Gonzalez]
+> * resin-init-flasher: search /tmp explicitly [Joseph Kogut]
+> * kernel-balena: enable CRYPTO_ZSTD for zram [Joseph Kogut]
+> 
+> ## meta-balena-6.1.18
+> ### (2024-12-03)
+> 
+> * Explicitly set GITHUB_TOKEN permissions for yocto workflow [Ryan Cooke]
+> 
+> ## meta-balena-6.1.17
+> ### (2024-12-02)
+> 
+> * resin-init-flasher: adapt EFI snippets to non-LUKS devices support [Alex Gonzalez]
+> * balena-config-vars: adapt to flasher non-LUKS device support [Alex Gonzalez]
+> * resin-init-flasher: add default LUKS configuration [Alex Gonzalez]
+> * hostapp-update-hooks: replace the identification of encrypted partitions [Alex Gonzalez]
+> 
+> ## meta-balena-6.1.16
+> ### (2024-11-27)
+> 
+> * classes/kernel-balena: Add aufs patches for 6.1 kernels [Florin Sarbu]
+> 
+> ## meta-balena-6.1.15
+> ### (2024-11-26)
+> 
+> * initrdscripts/migrate: Allow overriding of target internal devices [Alexandru Costache]
+> 
+> ## meta-balena-6.1.14
+> ### (2024-11-23)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 64ba6a3 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.65
+>> #### (2024-11-23)
+>> 
+>> * Update balena-os/leviathan-worker to v2.9.50 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.64
+>> #### (2024-11-23)
+>> 
+>> * Update core/contracts digest to 88fb8ad [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.63
+>> #### (2024-11-23)
+>> 
+>> * Update balena-io/balena-cli to v20 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.1.13
+> ### (2024-11-22)
+> 
+> * u-boot: env_resin: fix use of skip bootcount [Alex Gonzalez]
+> * initrdscripts: migrate: panic on installation failure [Alex Gonzalez]
+> 
+> ## meta-balena-6.1.12
+> ### (2024-11-21)
+> 
+> * balena-os: allow to specify early console for OS development builds [Alex Gonzalez]
+> 
+> ## meta-balena-6.1.11
+> ### (2024-11-20)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to ae505eb [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.62
+>> #### (2024-11-20)
+>> 
+>> * Update actions/checkout digest to 11bd719 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.61
+>> #### (2024-11-20)
+>> 
+>> * Update balena-io/balena-cli to v19.16.0 [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.1.10
+> ### (2024-11-15)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.7.7 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-16.7.7
+>> #### (2024-11-11)
+>> 
+>> * Firewall: allow DNS requests from custom Docker bridge networks [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.1.9
+> ### (2024-11-15)
+> 
+> * Update actions/setup-python digest to 0b93645 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.1.8
+> ### (2024-11-15)
+> 
+> * recipes-kernel/linux-firmware: Package Intel AX210 firmware [Alexandru Costache]
+> 
+> ## meta-balena-6.1.7
+> ### (2024-11-13)
+> 
+> * Update actions/checkout digest to 11bd719 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.1.6
+> ### (2024-11-13)
+> 
+> * Update balena-os/balena-yocto-scripts action to v1.27.10 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.1.5
+> ### (2024-11-13)
+> 
+> * recipes-support/os-fan-profile: Don't print logs unless configured [Alexandru Costache]
+> * Update tests/leviathan digest to 8234f44 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.1.4
+> ### (2024-11-12)
+> 
+> * os: test for rootfs by-state link uniqueness [Joseph Kogut]
+> * common: fix udev helper by-state link creation [Joseph Kogut]
+> 
+> ## meta-balena-6.1.3
+> ### (2024-11-11)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.7.6 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-16.7.6
+>> #### (2024-11-07)
+>> 
+>> * Update firewall documentation [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.7.5
+>> #### (2024-11-07)
+>> 
+>> * Delete apps not in target from db by appUuid instead of appId [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-16.7.4
+>> #### (2024-10-28)
+>> 
+>> * Update express to v4.20.0 [SECURITY] [balena-renovate[bot]]
+>> 
+>> ### balena-supervisor-16.7.3
+>> #### (2024-10-28)
+>> 
+>> * Add NXP support to balenaOS secure boot [Alex Gonzalez]
+>> 
+>> ### balena-supervisor-16.7.2
+>> #### (2024-10-18)
+>> 
+>> * Use bookworm image to source journalctl binaries [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.7.1
+>> #### (2024-09-26)
+>> 
+>> * Add support for init field from compose [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-16.7.0
+>> #### (2024-09-02)
+>> 
+>> * Store rejected apps in the database [Felipe Lalanne]
+>> * Set the app update status when reporting state [Felipe Lalanne]
+>> * Add update status to types [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.1.2
+> ### (2024-11-11)
+> 
+> * modemmanager: Update outdated context of patches [Florin Sarbu]
+> 
+> ## meta-balena-6.1.1
+> ### (2024-11-07)
+> 
+> * README: format the supported Yocto versions for legibility [Alex Gonzalez]
+> * Extend README to add balena bootloader [Alex Gonzalez]
+> 
+> ## meta-balena-6.1.0
+> ### (2024-11-01)
+> 
+> * Add auth. header to /os/v1/config requests [Anton Belodedenko]
+> 
+> ## meta-balena-6.0.50
+> ### (2024-10-26)
+> 
+> * tests: secureboot: add test to ensure partition integrity [Joseph Kogut]
+> 
+> ## meta-balena-6.0.49
+> ### (2024-10-25)
+> 
+> * tests/os: Add Jetson Orin device-specific fan and power mode smoke tests [Alexandru Costache]
+> 
+> ## meta-balena-6.0.48
+> ### (2024-10-24)
+> 
+> * os-helpers-fs: introduce a script to split boot partitions [Alex Gonzalez]
+> * os-helpers-fs: add a shared script to deploy non-encrypted boot file [Alex Gonzalez]
+> * systemd: disable systemd-gpt-generator [Alex Gonzalez]
+> * resin-mounts: generalize non-enc boot partition mounter [Alex Gonzalez]
+> * classes: kernel-balena: do not remove whole build directory [Alex Gonzalez]
+> * efitools: Fix syntax [Alex Gonzalez]
+> 
+> ## meta-balena-6.0.47
+> ### (2024-10-21)
+> 
+> * hostapp-update-hooks: remove alternative bootloader environment files [Alex Gonzalez]
+> 
+> ## meta-balena-6.0.46
+> ### (2024-10-19)
+> 
+> * balena-units-conf: Add os-fan-profile to units conf [Alexandru Costache]
+> 
+> ## meta-balena-6.0.45
+> ### (2024-10-18)
+> 
+> * workflows/meta-balena-esr: fix version creation bash [Ryan Cooke]
+> 
+> ## meta-balena-6.0.44
+> ### (2024-10-10)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to cf58b57 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.59
+>> #### (2024-10-10)
+>> 
+>> * add secureboot identifier into report name [Ryan Cooke]
+>> 
+>> ### leviathan-2.31.58
+>> #### (2024-10-10)
+>> 
+>> * Update core/contracts digest to 5ac053b [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.57
+>> #### (2024-10-10)
+>> 
+>> * Update actions/upload-artifact digest to b4b15b8 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.56
+>> #### (2024-10-09)
+>> 
+>> * compose: map qemu volume into worker [Joseph Kogut]
+>> 
+>> ### leviathan-2.31.55
+>> #### (2024-10-08)
+>> 
+>> * Update actions/upload-artifact digest to 8448086 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.54
+>> #### (2024-10-08)
+>> 
+>> * Update balena-io/balena-cli to v19.0.18 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.53
+>> #### (2024-10-08)
+>> 
+>> * Update actions/checkout digest to eef6144 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.52
+>> #### (2024-10-08)
+>> 
+>> * Update balena-io/balena-cli to v19.0.17 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.51
+>> #### (2024-10-07)
+>> 
+>> * Update actions/upload-artifact digest to 604373d [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.0.43
+> ### (2024-10-10)
+> 
+> * initrdscripts: Wait for boot partition in the abroot script [Michal Toman]
+> 
+> ## meta-balena-6.0.42
+> ### (2024-10-09)
+> 
+> * flasher: improve logging with secure boot [Joseph Kogut]
+> 
+> ## meta-balena-6.0.41
+> ### (2024-10-09)
+> 
+> * Update balena-os/balena-yocto-scripts action to v1.25.59 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.0.40
+> ### (2024-10-08)
+> 
+> * os-helpers-efi: silence secure boot variable checks [Joseph Kogut]
+> * os-helpers-efi: silence od stderr [Joseph Kogut]
+> 
+> ## meta-balena-6.0.39
+> ### (2024-10-07)
+> 
+> * tests: hup: login with sdk before fetching image [Ryan Cooke]
+> 
+> ## meta-balena-6.0.38
+> ### (2024-10-04)
+> 
+> * tpm2: ensure auth session contexts are flushed after use [Joseph Kogut]
+> 
+> ## meta-balena-6.0.37
+> ### (2024-10-04)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 3a1a989 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.31.50
+>> #### (2024-10-04)
+>> 
+>> * Update ubuntu to v24 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.49
+>> #### (2024-10-04)
+>> 
+>> * Update docker/setup-buildx-action digest to c47758b [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.48
+>> #### (2024-10-03)
+>> 
+>> * Update balena-io/balena-cli to v19.0.13 [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.47
+>> #### (2024-10-03)
+>> 
+>> * Update docker/setup-buildx-action digest to 8026d2b [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.46
+>> #### (2024-10-03)
+>> 
+>> * Update core/contracts digest to 1fb0b0c [balena-renovate[bot]]
+>> 
+>> ### leviathan-2.31.45
+>> #### (2024-10-03)
+>> 
+>> * add .git to dockerignore [rcooke-warwick]
+>> * remove pull request target trigger from workflows [rcooke-warwick]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-6.0.36
+> ### (2024-10-01)
+> 
+> * Update balena-os/balena-yocto-scripts action to v1.25.49 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.0.35
+> ### (Invalid date)
+> 
+> * tests: cloud: prevent hanging in cloud suite teardown [rcooke-warwick]
+> 
+> ## meta-balena-6.0.34
+> ### (2024-09-27)
+> 
+> * CI: Update checkout settings [Pagan Gazzard]
+> 
+
+</details>
+
 # v6.0.33+rev4
 ## (2024-12-12)
 
