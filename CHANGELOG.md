@@ -1,6 +1,36 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.26+rev2
+## (2024-12-14)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 47f64ca1617288a0e4da6af73609155981865712 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.29.4
+> ### (2024-12-14)
+> 
+> * Compress artifacts with gzip and zstd before encrypting [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.29.3
+> ### (2024-12-13)
+> 
+> * Update Pin dependencies [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.29.2
+> ### (2024-12-13)
+> 
+> * Update balena-os/leviathan action to v2.31.70 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.29.1
+> ### (2024-12-13)
+> 
+> * re-enable AMI deploys [Ryan Cooke]
+> 
+
+</details>
+
 # v6.1.26+rev1
 ## (2024-12-13)
 
