@@ -1,6 +1,21 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.1.27+rev3
+## (2024-12-18)
+
+
+<details>
+<summary> Update contracts to 9ce0ad766c4f9b46cd78462813ff01600a61cde5 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.119
+> ### (2024-12-16)
+> 
+> * contracts/hw.device-type: Update instructions for Orin flasher types [Alexandru Costache]
+> 
+
+</details>
+
 # v6.1.27+rev2
 ## (2024-12-18)
 
