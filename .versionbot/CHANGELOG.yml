@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 01049fdfdc3ab64c734ed00a9746d9e2522225e6
+      hash: fe4e38902b59c3e6cf20adc1f88a269219b1addf
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 01049fdfdc3ab64c734ed00a9746d9e2522225e6
+        changelog-entry: Update balena-yocto-scripts to 01049fdfdc3ab64c734ed00a9746d9e2522225e6
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update aws/aws-cli to v2.24.26
+              hash: e11a00565bc8a4f4efaddf2948c5d2d077cac193
+              body: |
+                Update aws/aws-cli from 2.24.25 to 2.24.26
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.31.33
+          title: ""
+          date: 2025-03-18T21:31:54.822Z
+        - commits:
+            - subject: Update actions/download-artifact digest to b14cf4c
+              hash: 2c37a1957a5953dc1911d468a2cd5ea1272049f0
+              body: |
+                Update actions/download-artifact
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.31.32
+          title: ""
+          date: 2025-03-18T19:10:58.460Z
+  version: 6.5.0+rev1
+  title: ""
+  date: 2025-03-19T01:06:15.529Z
+- commits:
     - subject: Update layers/meta-balena-robustel-imx8mp to
         c89b55033e1b52a2f694fa8bffdda9756d2fe57b
       hash: 5130d18653c5a4e930848f0dea7a8a3322b85986
