@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to aa785e72071c7291797312d8800a4a9d8a441450
+      hash: 211a44decbd93ee2221cd9b634c1e918ee904470
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to aa785e72071c7291797312d8800a4a9d8a441450
+        changelog-entry: Update layers/meta-balena to aa785e72071c7291797312d8800a4a9d8a441450
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena: enable CONFIG_MODULE_COMPRESS as needed"
+              hash: c2e44fac5f5a0a68116d6de04f011a43ec7856ab
+              body: >
+                CONFIG_MODULE_COMPRESS_ZSTD requires CONFIG_MODULE_COMPRESS in
+                kernel
+
+                v6.12. Enable it when necessary.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-6.5.2
+          title: ""
+          date: 2025-03-19T11:27:10.189Z
+  version: 6.5.2
+  title: ""
+  date: 2025-03-19T14:57:20.112Z
+- commits:
     - subject: Update layers/meta-balena to de218895272b288458d86bcba4358eb9a9558c17
       hash: c5250becef1dbc33be55305e03a187238bed4100
       body: Update layers/meta-balena
