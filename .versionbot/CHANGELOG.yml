@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 04eb68e3db91d0824f5876a6d51aefd4fded7786
+      hash: 082d8d107a5c9f876e0a015cc8422d745fa3d636
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 04eb68e3db91d0824f5876a6d51aefd4fded7786
+        changelog-entry: Update balena-yocto-scripts to 04eb68e3db91d0824f5876a6d51aefd4fded7786
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update aws/aws-cli to v2.24.27
+              hash: cf4aedee60376118fe61a447ae03257252b32db8
+              body: |
+                Update aws/aws-cli from 2.24.26 to 2.24.27
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.31.39
+          title: ""
+          date: 2025-03-20T03:20:41.212Z
+        - commits:
+            - subject: Update balena-os/leviathan action to v2.31.93
+              hash: 13dc8006b67e39876d27710a5aa2456e961bb153
+              body: |
+                Update balena-os/leviathan from 2.31.91 to 2.31.93
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.31.38
+          title: ""
+          date: 2025-03-20T01:54:47.996Z
+  version: 6.5.2+rev5
+  title: ""
+  date: 2025-03-20T06:28:46.775Z
+- commits:
     - subject: Update balena-yocto-scripts to 670d5fe63a7254d01f1b638ccd4120ad42659043
       hash: 0a6c86a8b4b5a0c3de18c205fbff59b635fb083a
       body: Update balena-yocto-scripts
