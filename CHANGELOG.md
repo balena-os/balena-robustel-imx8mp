@@ -1,6 +1,33 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.7
+## (2025-04-02)
+
+
+<details>
+<summary> Update layers/meta-balena to c9903d7b93fd1c9db7c565031145834f61153dbe [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.7
+> ### (2025-04-01)
+> 
+> * kernel-balena.bbclass: enable multipath TCP [Joseph Kogut]
+> 
+
+</details>
+
+
+<details>
+<summary> Update layers/meta-balena to 116c4ecdae65da21061650c6177d35a62e9d7da9 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.7
+> ### (2025-04-01)
+> 
+> * kernel-balena.bbclass: enable multipath TCP [Joseph Kogut]
+> 
+
+</details>
+
 # v6.5.5
 ## (2025-03-31)
 

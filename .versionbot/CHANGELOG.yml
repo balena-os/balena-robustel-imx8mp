@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update layers/meta-balena to c9903d7b93fd1c9db7c565031145834f61153dbe
+      hash: bdd95aa5797a84261b2206dbff7e4ab9ee54e4ea
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c9903d7b93fd1c9db7c565031145834f61153dbe
+        changelog-entry: Update layers/meta-balena to c9903d7b93fd1c9db7c565031145834f61153dbe
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena.bbclass: enable multipath TCP"
+              hash: e96b6aebcd77ada85e17aec8e7bfe32855e8a0d7
+              body: |
+                Enable multipath TCP (MPTCP) for all devices by default.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-6.5.7
+          title: ""
+          date: 2025-04-01T19:43:34.631Z
+    - subject: Update layers/meta-balena to 116c4ecdae65da21061650c6177d35a62e9d7da9
+      hash: 3284a8d586e13f0c70ed1e9a780c1364119c46a4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 116c4ecdae65da21061650c6177d35a62e9d7da9
+        changelog-entry: Update layers/meta-balena to 116c4ecdae65da21061650c6177d35a62e9d7da9
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena.bbclass: enable multipath TCP"
+              hash: e96b6aebcd77ada85e17aec8e7bfe32855e8a0d7
+              body: |
+                Enable multipath TCP (MPTCP) for all devices by default.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-6.5.7
+          title: ""
+          date: 2025-04-01T19:43:34.631Z
+  version: 6.5.7
+  title: ""
+  date: 2025-04-02T03:07:38.014Z
+- commits:
     - subject: Update layers/meta-balena to 0c657af51fe6209c35447ed13870dfca4e38b19b
       hash: 6e4012ca033c4017c46f54e9f295fd4323d462cd
       body: Update layers/meta-balena
