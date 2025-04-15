@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update layers/meta-balena-robustel-imx8mp to
+        cf327452ca012c310058cd5b08a47c455fa6ab58
+      hash: 4eda4bd73e3e55e0437155088c2c68a9f77b2421
+      body: Update layers/meta-balena-robustel-imx8mp
+      footer:
+        Changelog-entry: Update layers/meta-balena-robustel-imx8mp to
+          cf327452ca012c310058cd5b08a47c455fa6ab58
+        changelog-entry: Update layers/meta-balena-robustel-imx8mp to
+          cf327452ca012c310058cd5b08a47c455fa6ab58
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.5.16+rev1
+  title: ""
+  date: 2025-04-15T09:09:49.921Z
+- commits:
     - subject: Update layers/meta-balena to 908a989d9cd5e71f03e6590d37b94a5b299f9397
       hash: 6892ead9de67a1dc7e5f106cf5dc59ea5656bee3
       body: Update layers/meta-balena
