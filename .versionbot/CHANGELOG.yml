@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update contracts to fc76558c384c10bf228b10909eca346ee9d6b564
+      hash: 6df55a40879c96a11087514974e0829cd3da904f
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to fc76558c384c10bf228b10909eca346ee9d6b564
+        changelog-entry: Update contracts to fc76558c384c10bf228b10909eca346ee9d6b564
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: Update J4012 device type name"
+              hash: b28727f64f2838069caf0c7fae213d6b01f20741
+              body: >
+                ... to specify that this is the Classic revision of the carrier
+                board,
+
+                which does not support the SUPER mode.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+          version: contracts-2.0.137
+          title: ""
+          date: 2025-07-02T09:19:48.336Z
+  version: 6.5.16+rev4
+  title: ""
+  date: 2025-07-02T14:15:42.879Z
+- commits:
     - subject: Update contracts to 417aec2b1a551295d855acd551cd810d2b69420e
       hash: 6b0f24d71d3d66d0f506e534d656249b5e562305
       body: Update contracts
