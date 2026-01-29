@@ -63,6 +63,3 @@ HOSTTOOLS:remove = "cc"
 HOSTTOOLS += "docker iptables"
 
 ACCEPT_FSL_EULA = "1"
-
-# we disable the kernel headers generation since it has a compile error and since this is a private board we don't really need to have it available anyway
-BALENA_DISABLE_KERNEL_HEADERS = "1"
