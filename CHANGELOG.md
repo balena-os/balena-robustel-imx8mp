@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.5.16+rev8
+## (2026-02-09)
+
+* Update layers/meta-balena-robustel-imx8mp to 893d4ec91a859db5fb59e8d5f00db8b04614fa22 [balena-renovate[bot]]
+
 # v6.5.16+rev7
 ## (2026-02-07)
 

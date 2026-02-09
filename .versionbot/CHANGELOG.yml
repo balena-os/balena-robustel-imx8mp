@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update layers/meta-balena-robustel-imx8mp to
+        893d4ec91a859db5fb59e8d5f00db8b04614fa22
+      hash: bf7c0f1c5d4e4c26676ba283ad904f1d6e882559
+      body: Update layers/meta-balena-robustel-imx8mp
+      footer:
+        Changelog-entry: Update layers/meta-balena-robustel-imx8mp to
+          893d4ec91a859db5fb59e8d5f00db8b04614fa22
+        changelog-entry: Update layers/meta-balena-robustel-imx8mp to
+          893d4ec91a859db5fb59e8d5f00db8b04614fa22
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.5.16+rev8
+  title: ""
+  date: 2026-02-09T06:45:31.822Z
+- commits:
     - subject: Update balena-yocto-scripts to 4e85bf1bf512000e456674b74cfd8cd1727a4c20
       hash: f0417e368d65a49ab8bc8f536c02432f6589a2a4
       body: Update balena-yocto-scripts
