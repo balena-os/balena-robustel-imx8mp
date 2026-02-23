@@ -1,4 +1,18 @@
 - commits:
+    - subject: Allow custom meta-balena ref on workflow dispatch
+      hash: 10fcd3c6f5691598c1eeeb6cc70409f6076d2186
+      body: ""
+      footer:
+        Changelog-entry: Allow custom meta-balena ref on workflow dispatch
+        changelog-entry: Allow custom meta-balena ref on workflow dispatch
+        Signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+        signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+      author: Yann CARDAILLAC
+      nested: []
+  version: 6.11.0+rev2
+  title: ""
+  date: 2026-02-23T18:49:53.261Z
+- commits:
     - subject: Update balena-yocto-scripts to c6e9aac2a209790c00790d57b44fdce91a678159
       hash: 30526a85d018d46ce3670b26869407d729d496fe
       body: Update balena-yocto-scripts
