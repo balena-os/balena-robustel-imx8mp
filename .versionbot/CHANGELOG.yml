@@ -1,4 +1,116 @@
 - commits:
+    - subject: Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5
+      hash: 306e6be637ff9a1157f2822f4d12ad09191b17ba
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5
+        changelog-entry: Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests/modem: Skip modem test on unsupported Orin device-type"
+              hash: e72616cea3600a8781bf094c6f10316ebe8f3325
+              body: |
+                This particular device-type has an e-SIM and cannot be tested
+                in our autokit, because a custom setup is required.
+
+                Connectivity will thus be tested by the vendor.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+              nested: []
+          version: meta-balena-6.11.4
+          title: ""
+          date: 2026-02-23T14:31:12.414Z
+        - commits:
+            - subject: "balena-bootloader.bbclass: disable more unnecessary drivers"
+              hash: 1f51bdc9c52ea9ea9207d90f00db581b797409ad
+              body: >
+                Some device types are tight on storage and the balena bootloader
+                is one
+
+                of the cheaper places to save space.
+
+
+                This patch is just another round of disabling unnecessary
+                drivers,
+
+                depending on the device type this one should shrink the
+                resulting
+
+                kernel binary by 300-500kB.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+            - subject: "balena-bootloader.bbclass: add spaces to BALENA_CONFIGS appends"
+              hash: e807ca5c1f055234bb8750e9f21bb5c2ea3eef26
+              body: >
+                At this moment `secureboot` and `shrink_size` sections are
+                appended
+
+                to BALENA_CONFIGS without spaces, so if both are enabled at the
+                same
+
+                time, they merge into `securebootshrink_size`, effectively
+                disabling
+
+                both.
+
+
+                This patch adds a space before each append so that both are
+                treated
+
+                as standalone sections.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.11.3
+          title: ""
+          date: 2026-02-20T06:15:21.216Z
+        - commits:
+            - subject: "tests:modem: Disable for kontron-come-xelx"
+              hash: ee77d4f792c0a4eb397b4ee084bce9fd64398fcd
+              body: |
+                Currently the modem is not used on this device type
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.11.2
+          title: ""
+          date: 2026-02-18T14:52:33.063Z
+        - commits:
+            - subject: "peak: Update to version 9.0"
+              hash: 37ab4aef27be7c9042757b3f3d2b91080a5b4259
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.11.1
+          title: ""
+          date: 2026-02-17T13:05:12.004Z
+  version: 6.11.4
+  title: ""
+  date: 2026-02-23T23:23:54.508Z
+- commits:
     - subject: Allow custom meta-balena ref on workflow dispatch
       hash: 10fcd3c6f5691598c1eeeb6cc70409f6076d2186
       body: ""

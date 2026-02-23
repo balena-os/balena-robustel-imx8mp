@@ -1,6 +1,37 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.11.4
+## (2026-02-23)
+
+
+<details>
+<summary> Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.11.4
+> ### (2026-02-23)
+> 
+> * tests/modem: Skip modem test on unsupported Orin device-type [Alexandru]
+> 
+> ## meta-balena-6.11.3
+> ### (2026-02-20)
+> 
+> * balena-bootloader.bbclass: disable more unnecessary drivers [Michal Toman]
+> * balena-bootloader.bbclass: add spaces to BALENA_CONFIGS appends [Michal Toman]
+> 
+> ## meta-balena-6.11.2
+> ### (2026-02-18)
+> 
+> * tests:modem: Disable for kontron-come-xelx [Florin Sarbu]
+> 
+> ## meta-balena-6.11.1
+> ### (2026-02-17)
+> 
+> * peak: Update to version 9.0 [Florin Sarbu]
+> 
+
+</details>
+
 # v6.11.0+rev2
 ## (2026-02-23)
 
