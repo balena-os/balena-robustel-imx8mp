@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v6.11.5+rev1
+## (2026-02-27)
+
+* workflows: workflows: Move testing to BC from BM [Ryan Cooke]
+
 # v6.11.5
 ## (2026-02-25)
 
