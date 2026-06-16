@@ -1,6 +1,47 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.5.1
+## (2026-06-16)
+
+
+<details>
+<summary> Update layers/meta-balena to 02273a709f119a093c4958cb6d0deed49df893eb [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.1
+> ### (2026-06-15)
+> 
+> * tests: Define imx8mmebcrs16a1 as flasherConfig type [Florin Sarbu]
+> 
+> ## meta-balena-7.5.0
+> ### (2026-06-12)
+> 
+> * conf/layer.conf: Specify Wrynose compatibility [Alexandru Costache]
+> 
+> ## meta-balena-7.4.1
+> ### (2026-06-11)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to a310841 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.112
+>> #### (2026-06-10)
+>> 
+>> * core/lib: Make Protected Management Frames (PMF) support optional / disabled when creating the wifi connection profile [Florin Sarbu]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-7.4.0
+> ### (2026-06-09)
+> 
+> * systemd: add configuration to ignore lid switch events [Dr Bill Mcilhargey]
+> 
+
+</details>
+
 # v7.3.0+rev1
 ## (2026-06-10)
 
