@@ -1,6 +1,46 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.5.1+rev4
+## (2026-06-16)
+
+
+<details>
+<summary> Update contracts to 9fe86f23e02c5d438a96ab3209239dcb5df4dc5b [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.144
+> ### (2026-05-19)
+> 
+> * hw.device-type/beaglebone-ai64: Add the beaglebone-ai-64 alias to align with its device repo definition [Thodoris Greasidis]
+> 
+> ## contracts-2.0.143
+> ### (2026-04-22)
+> 
+> * hw.device-type: Add new device-type Compulab IOT-LINK Gateway [Florin Sarbu]
+> 
+> ## contracts-2.0.142
+> ### (2026-04-09)
+> 
+> * Update iot-gate-imx8plus-d1d8 to remove Wifi and BT [Alexandru Costache]
+> 
+> ## contracts-2.0.141
+> ### (2026-03-16)
+> 
+> * iot-gate-imx8plus: replace dram size range with explicit dram sizes [Alex Gonzalez]
+> 
+> ## contracts-2.0.140
+> ### (2026-03-11)
+> 
+> * iot-gate-imx8plus-d1d8: Enable bluetooth and wifi [Florin Sarbu]
+> 
+> ## contracts-2.0.139
+> ### (2026-03-11)
+> 
+> * ucm-imx93: Set wifi and bt to false [Florin Sarbu]
+> 
+
+</details>
+
 # v7.5.1+rev3
 ## (2026-06-16)
 
