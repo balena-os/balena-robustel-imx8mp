@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 8612b73406fd9c8242bc13ce979fd10e06f6c789
+      hash: c06d1b1f58d8c2efaa0ee3fec15fbd948ae2e39a
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 8612b73406fd9c8242bc13ce979fd10e06f6c789
+        changelog-entry: Update contracts to 8612b73406fd9c8242bc13ce979fd10e06f6c789
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw/device-type: Add Jetson AGX Thor Devkit contract"
+              hash: b4177e428fcc74bf0cf18ff0189d7a4826f7da4d
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.145
+          title: ""
+          date: 2026-07-01T09:44:52.326Z
+  version: 7.5.10+rev1
+  title: ""
+  date: 2026-07-10T20:37:58.421Z
+- commits:
     - subject: Update layers/meta-balena to 3bed17c681e6fcc33bb656517e61b652b0a4beee
       hash: 4c7882398344887444f6dc9d09297723ed4654b9
       body: Update layers/meta-balena
