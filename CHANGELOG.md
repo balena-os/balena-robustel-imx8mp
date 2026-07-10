@@ -1,6 +1,46 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.5.10
+## (2026-07-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 3bed17c681e6fcc33bb656517e61b652b0a4beee [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.10
+> ### (2026-07-09)
+> 
+> * kernel-image-initramfs: multi-kernel support [Alex Gonzalez]
+> * kernel-balena-noimage: remove upstream rrecommends [Alex Gonzalez]
+> * kernel-balena-override: add config fragment support [Alex Gonzalez]
+> * kernel-balena: add multi kernel support [Alex Gonzalez]
+> 
+> ## meta-balena-7.5.9
+> ### (2026-07-08)
+> 
+> * renovate: Append major/minor/patch updates with change-type footer [Kyle Harding]
+> 
+> ## meta-balena-7.5.8
+> ### (2026-07-07)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to a8266fb [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.113
+>> #### (2026-07-06)
+>> 
+>> * Update balena-os/leviathan-worker to v2.10.35 [Florin Sarbu]
+>> * core/lib/common/worker.js: Switch to segmented OS image upload to worker [Florin Sarbu]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v7.5.7+rev1
 ## (2026-06-25)
 
