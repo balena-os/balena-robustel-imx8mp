@@ -1,6 +1,26 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.9.2
+## (2026-08-07)
+
+
+<details>
+<summary> Update layers/meta-balena to 669cd979a6d181271989e268bdb334c600b16955 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.9.2
+> ### (2026-08-07)
+> 
+> * extra-udev-rules: Disable power management on mlan* wireless network interfaces [Florin Sarbu]
+> 
+> ## meta-balena-7.9.1
+> ### (2026-08-07)
+> 
+> * recipes-containers/balena-extension-runtime: Enable Wrynose builds [Alexandru Costache]
+> 
+
+</details>
+
 # v7.9.0+rev1
 ## (2026-08-05)
 
