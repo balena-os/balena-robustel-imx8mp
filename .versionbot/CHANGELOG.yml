@@ -1,4 +1,46 @@
 - commits:
+    - subject: "layers/meta-balena-robustel-imx8mp: Convert submodule to a subtree"
+      hash: 0ffb74ae3cc1d8d72de0cd267446a9fd304c7bd6
+      body: |
+        Fixes mgkiller7/meta-balena-robustel-imx8mp#4
+      footer:
+        Changelog-entry: "layers/meta-balena-robustel-imx8mp: Convert submodule to a subtree"
+        changelog-entry: "layers/meta-balena-robustel-imx8mp: Convert submodule to a subtree"
+        Signed-off-by: machangbao <machangbao@rt.com>
+        signed-off-by: machangbao <machangbao@rt.com>
+      author: machangbao
+      nested: []
+    - subject: "local.conf: Re-enable kernel headers"
+      hash: 4c375a1513344259724cb1fb6857ab1f711d2e86
+      body: ""
+      footer:
+        Changelog-entry: "local.conf: Re-enable kernel headers"
+        changelog-entry: "local.conf: Re-enable kernel headers"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru
+      nested: []
+    - subject: "layers/meta-balena-robustel-imx8mp: Convert submodule to a subtree"
+      hash: 1f9e08245b1621c801a853e466c15d2a0b2dc38a
+      body: |
+        Converts the layers/meta-balena-robustel-imx8mp submodule (previously
+        https://github.com/mgkiller7/meta-balena-robustel-imx8mp.git @ 893d4ec)
+        into a regular subtree, importing its full commit history under
+        layers/meta-balena-robustel-imx8mp/ instead of a gitlink.
+
+        The upstream merge commits (GitHub PR merges) were dropped to keep this
+        repository's history linear; every non-merge commit is preserved as-is.
+      footer:
+        Changelog-entry: "layers/meta-balena-robustel-imx8mp: Convert submodule to a subtree"
+        changelog-entry: "layers/meta-balena-robustel-imx8mp: Convert submodule to a subtree"
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+  version: 7.9.4+rev1
+  title: ""
+  date: 2026-08-13T08:05:50.778Z
+- commits:
     - subject: Update layers/meta-balena to 5463b02b0ad994f9823194c7be374580ff632958
       hash: 16db69fee34706f21e16cb8d336d4cbc9f1268b5
       body: Update layers/meta-balena

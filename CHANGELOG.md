@@ -1,6 +1,13 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.9.4+rev1
+## (2026-08-13)
+
+* layers/meta-balena-robustel-imx8mp: Convert submodule to a subtree [machangbao]
+* local.conf: Re-enable kernel headers [Alexandru]
+* layers/meta-balena-robustel-imx8mp: Convert submodule to a subtree [guille-vega]
+
 # v7.9.4
 ## (2026-08-12)
 
