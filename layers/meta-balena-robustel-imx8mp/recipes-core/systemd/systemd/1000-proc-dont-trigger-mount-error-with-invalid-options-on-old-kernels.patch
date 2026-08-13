@@ -29,19 +29,21 @@ continual stream of bug reports.
 
 Signed-off-by: Richard Purdie <richard.purdie@linuxfoundation.org>
 
---- ./src/core/namespace.c.origin	2024-11-08 10:35:53.577047768 +0800
-+++ ./src/core/namespace.c	2024-11-08 10:41:59.931114545 +0800
-@@ -4,7 +4,9 @@
+
+--- ./src/core/namespace.c.origin
++++ ./src/core/namespace.c
+@@ -4,8 +4,10 @@
  #include <linux/loop.h>
  #include <sched.h>
  #include <stdio.h>
 +#include <stdlib.h>
+ #include <sys/file.h>
  #include <sys/mount.h>
 +#include <sys/utsname.h>
  #include <unistd.h>
+ #if WANT_LINUX_FS_H
  #include <linux/fs.h>
- 
-@@ -1017,13 +1019,29 @@
+@@ -1020,13 +1022,29 @@
  static int mount_procfs(const MountEntry *m, const NamespaceInfo *ns_info) {
          _cleanup_free_ char *opts = NULL;
          const char *entry_path;
