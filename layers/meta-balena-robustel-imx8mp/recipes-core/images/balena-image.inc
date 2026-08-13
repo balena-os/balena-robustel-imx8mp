@@ -5,6 +5,10 @@ IMAGE_INSTALL:remove = " kernel-image"
 # Increase the rootfs partition size
 IMAGE_ROOTFS_SIZE="430080"
 
+# Fix the boot & the state partition to old default size
+BALENA_BOOT_SIZE="40960"
+BALENA_STATE_SIZE="20480"
+
 DEPENDS += "imx-boot"
 
 # Flash signed bootloader to raw image
