@@ -1,0 +1,26 @@
+From 6e702e29c1936f92b1bf0a5510ab75b1665adba0 Mon Sep 17 00:00:00 2001
+From: machangbao <machangbao@rt.com>
+Date: Fri, 6 Feb 2026 20:24:33 +0800
+Subject: [PATCH] fix the extra-firmware test fail issue
+
+The issue is only triggered when the supervisor version exceeds v17.3.0
+---
+ include/configs/imx8mp_evk.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/configs/imx8mp_evk.h b/include/configs/imx8mp_evk.h
+index f595565d..bbbbffe3 100755
+--- a/include/configs/imx8mp_evk.h
++++ b/include/configs/imx8mp_evk.h
+@@ -117,7 +117,7 @@
+ "loadm7bin=load mmc ${mmcdev}:${mmcpart} ${loadaddr} ${bootdir}/${m7_bin} && cp.b ${loadaddr} ${m7_addr} ${filesize}; echo Init rsc_table region memory; mw.b 400ff000 0 10\0" \
+ "m7_addr=0x7e0000\0" \
+ "m7_bin=hello_world.bin\0" \
+-"mmcargs=setenv bootargs console=${console} ${resin_kernel_root} ${os_cmdline} rootwait rw ${cma_size} cma_name=linux,cma\0" \
++"mmcargs=setenv bootargs console=${console} ${resin_kernel_root} ${os_cmdline} ${extra_os_cmdline} ${extra_os_firmware_class_path} rootwait rw ${cma_size} cma_name=linux,cma\0" \
+ "mmcblk=2\0" \
+ "mmcboot=echo Booting from mmc ...; run mmcargs; run optargs; if test ${boot_fit} = yes || test ${boot_fit} = try; then bootm ${loadaddr}; else if run loadfdt; then booti ${loadaddr} - ${fdt_addr_r}; else echo WARN: Cannot load the DT; fi; fi;\0" \
+ "mmcdev=2\0" \
+-- 
+2.30.2
+
