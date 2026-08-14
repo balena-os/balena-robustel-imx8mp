@@ -1,4 +1,20 @@
 - commits:
+    - subject: Set explicit partition size
+      hash: 87730a8507c934f960becc106a95552ddaf2cdfa
+      body: |
+        Ensure BALENA_BOOT_SIZE and BALENA_STATE_SIZE are
+        explicitly set to old default size.
+      footer:
+        Changelog-entry: Set explicit partition size
+        changelog-entry: Set explicit partition size
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+  version: 7.9.4+rev3
+  title: ""
+  date: 2026-08-14T06:48:16.034Z
+- commits:
     - subject: "systemd: Fix hidepid patch context after poky bump"
       hash: 41f4b371bf372b5b4d466632ba16657379dc5afb
       body: ""

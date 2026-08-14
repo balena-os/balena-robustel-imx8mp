@@ -1,6 +1,11 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v7.9.4+rev3
+## (2026-08-14)
+
+* Set explicit partition size [guille-vega]
+
 # v7.9.4+rev2
 ## (2026-08-13)
 
