@@ -1,6 +1,36 @@
 # v2.105.10
 ## (2022-10-13)
 
+# v8.0.2+rev1
+## (2026-08-22)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 6ea43b88e510d849952538fb77a60544fbfc3b77 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.42.8
+> ### (2026-08-20)
+> 
+> * Update balena-io/upload-balena-release-asset action to v0.2.0 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.42.7
+> ### (2026-08-19)
+> 
+> * Update lodash to v4.18.1 [SECURITY] [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.42.6
+> ### (2026-08-19)
+> 
+> * Update actions/github-script action to v9 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.42.5
+> ### (2026-08-19)
+> 
+> * yocto-build-deploy: Drop container-path license symlinks before upload [Kyle Harding]
+> 
+
+</details>
+
 # v8.0.2
 ## (2026-08-22)
 
