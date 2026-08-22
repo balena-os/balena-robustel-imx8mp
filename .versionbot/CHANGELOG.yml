@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update layers/meta-balena to f3ee62082eb6ff27aeb4638456209cb13518a82e
+      hash: e5d47031d93b9f21b253c1dfbbe75c22301c9c52
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f3ee62082eb6ff27aeb4638456209cb13518a82e
+        changelog-entry: Update layers/meta-balena to f3ee62082eb6ff27aeb4638456209cb13518a82e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "distro:balena-os.inc: Remove gobject-introspection-data from
+                DISTRO_FEATURES"
+              hash: 049d1a5bf38786fa1d2d50ac563234d4aa742645
+              body: >
+                We do not use GObject Introspection typelib files in the hostOS
+                so let's
+
+                remove them in order to help shrink the rootfs.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-8.0.2
+          title: ""
+          date: 2026-08-21T20:43:55.785Z
+        - commits:
+            - subject: "balena: use AtomicWriteFile to save volume options"
+              hash: 130aa0d717e5a2eaf970718a819fb44d86d53a2d
+              body: |
+                Backport moby/moby#48034 to balenaEngine v25
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-8.0.1
+          title: ""
+          date: 2026-08-20T16:35:41.933Z
+  version: 8.0.2
+  title: ""
+  date: 2026-08-22T00:06:14.478Z
+- commits:
     - subject: Update layers/meta-balena to 9c83231c087d0ff78b943765551e2f061e0e9f72
       hash: 5ed03de116813094b00b8e55925cd4aca105f6bb
       body: Update layers/meta-balena
