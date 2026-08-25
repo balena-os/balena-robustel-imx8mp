@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update flowzonify to 0.4.0
+      hash: a49addfbd8988da2f7098799accbb12fb72afc37
+      body: Update flowzonify
+      footer:
+        Changelog-entry: Update flowzonify to 0.4.0
+        changelog-entry: Update flowzonify to 0.4.0
+      author: balena-renovate[bot]
+      nested: []
+  version: 8.0.2+rev3
+  title: ""
+  date: 2026-08-25T12:08:45.475Z
+- commits:
     - subject: Update contracts to 7314bbfc3bf44b0499093f04bdab21d22e46cc5e
       hash: e554941e1925b8ddd56dd4252d9df55972d82c76
       body: Update contracts
