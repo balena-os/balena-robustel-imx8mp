@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
+      hash: e1ec4fbc74c23165e2cc67fd2fb28dda9daac4c2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
+        changelog-entry: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-bootloader.bbclass: Move common bits from devices to class"
+              hash: f0b0c9843b896451123a6e41e7d8e5421608b20b
+              body: >
+                After adding the balena bootloader to a handful of devices, some
+                stuff
+
+                keeps getting copy/pasted into the bootloader recipes.
+
+
+                This patch moves the common bits to balena-bootloader.bbclass to
+                avoid
+
+                duplication and make it easier to use.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-8.0.3
+          title: ""
+          date: 2026-08-24T19:29:40.404Z
+  version: 8.0.3
+  title: ""
+  date: 2026-08-25T15:55:06.695Z
+- commits:
     - subject: Update flowzonify to 0.4.0
       hash: a49addfbd8988da2f7098799accbb12fb72afc37
       body: Update flowzonify
