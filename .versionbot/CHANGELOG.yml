@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update contracts to d3c1db43a35fd33802623d0f30acfb2f0bf095e2
+      hash: 9033cd8498372fa28ab5e8a5ef8533d0a44e78e3
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to d3c1db43a35fd33802623d0f30acfb2f0bf095e2
+        changelog-entry: Update contracts to d3c1db43a35fd33802623d0f30acfb2f0bf095e2
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Mark revpi-connect-4 and revpi-connect-s as legacy
+              hash: f88d15f5128228e7247c48d6bfcbf5ebbbb9c4b9
+              body: >
+                New RevPi devices will be supported by a single device type
+                based on
+
+                meta-revolutionpi. Signal that these are not meant for new
+                deployments.
+
+                The Connect S device type covers the Connect SE as well.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Nicolai Buchwitz <n.buchwitz@kunbus.com>
+                signed-off-by: Nicolai Buchwitz <n.buchwitz@kunbus.com>
+              author: Nicolai Buchwitz
+          version: contracts-2.0.152
+          title: ""
+          date: 2026-11-17T09:08:39.748Z
+  version: 9.0.5+rev3
+  title: ""
+  date: 2026-11-17T17:00:20.163Z
+- commits:
     - subject: Update balena-yocto-scripts to 6396c352087dfb8e51878aac70a59b5806eafebf
       hash: f6d43437608378ed381daef3a1c8ad910ee05b23
       body: Update balena-yocto-scripts
