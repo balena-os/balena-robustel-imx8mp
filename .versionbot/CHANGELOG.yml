@@ -1,4 +1,55 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 067c1a2c06ecae0f26e5ffe2e10b17f9485b5bb9
+      hash: a0e2940241dfaef84217a13e521631ef66da8134
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 067c1a2c06ecae0f26e5ffe2e10b17f9485b5bb9
+        changelog-entry: Update balena-yocto-scripts to 067c1a2c06ecae0f26e5ffe2e10b17f9485b5bb9
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update ubuntu:22.04 Docker digest to b000e69
+              hash: c14fb3244cd21272fd6b8f705e3f5a97a2b50f08
+              body: |
+                Update ubuntu
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.44.4
+          title: ""
+          date: 2026-11-27T07:27:22.474Z
+        - commits:
+            - subject: Update coffee-script to ~1.12.0
+              hash: 166f23a8d206a84a499be7b93be89465d00a4c7f
+              body: |
+                Update coffee-script from 1.10.0 to 1.12.7
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.44.3
+          title: ""
+          date: 2026-11-27T03:11:43.064Z
+        - commits:
+            - subject: Update balena-io/balena-cli to v25.2.44
+              hash: e0c6060164f90b188d5f0e890a508ac1fe6e1e05
+              body: |
+                Update balena-io/balena-cli from 25.1.10 to 25.2.44
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.44.2
+          title: ""
+          date: 2026-11-26T22:49:09.825Z
+  version: 9.1.2+rev2
+  title: ""
+  date: 2026-11-27T11:29:14.184Z
+- commits:
     - subject: Update balena-yocto-scripts to 6fb8bd255436e8e4d330e78bbce67fd08363558b
       hash: 23cf52384a327997f2548ee9023b86f95adf8e03
       body: Update balena-yocto-scripts
